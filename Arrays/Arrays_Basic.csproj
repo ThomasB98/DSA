@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Arrays_Basic.ValidSudoku</StartupObject>
+    <StartupObject>Arrays_Basic.LongestConsecutiveSequence</StartupObject>
   </PropertyGroup>
 
 </Project>

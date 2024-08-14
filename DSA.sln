@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays_Basic", "Arrays\Arrays_Basic.csproj", "{4139BA06-EE2F-40C2-B603-DDF7290F5CBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{F3C21D90-8148-45C5-8D58-95761B53BF93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "LinkedList\LinkedList.csproj", "{F3C21D90-8148-45C5-8D58-95761B53BF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "searching", "searching\searching.csproj", "{D542E7CB-8915-4C4B-9FE2-504856E083A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F3C21D90-8148-45C5-8D58-95761B53BF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3C21D90-8148-45C5-8D58-95761B53BF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3C21D90-8148-45C5-8D58-95761B53BF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D542E7CB-8915-4C4B-9FE2-504856E083A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D542E7CB-8915-4C4B-9FE2-504856E083A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D542E7CB-8915-4C4B-9FE2-504856E083A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D542E7CB-8915-4C4B-9FE2-504856E083A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

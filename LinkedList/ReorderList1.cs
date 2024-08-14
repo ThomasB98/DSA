@@ -2,24 +2,12 @@
 
 namespace LinkedList
 {
-    class Node
+    internal class ReorderList1
     {
-        public int data;
-        public Node next;
-        public Node prev;
-        public Node(int data)
-        {
-            this.data = data;
-            this.next = null;
-            this.prev = null;
-        }
-    }
-    internal class ReorderList
-    {
-        
+
         static void Main(string[] args)
         {
-            SingleyLinkList singleyLinkList = new SingleyLinkList();
+            SingleyLinkListImpl singleyLinkList = new SingleyLinkListImpl();
 
             singleyLinkList.insertNodeAtFirst(1);
             singleyLinkList.insertNodeAtLast(2);
@@ -37,15 +25,23 @@ namespace LinkedList
             Console.WriteLine("Reordered List:");
             singleyLinkList.display();
         }
-
-
-        
     }
 
+    
 
-   
-    class SingleyLinkList
+    class SingleyLinkListImpl
     {
+        class Node
+        {
+            public int data;
+            public Node next;
+
+            public Node(int data)
+            {
+                this.data = data;
+                this.next = null;
+            }
+        }
         private Node head = null;
 
         public void display()

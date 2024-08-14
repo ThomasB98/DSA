@@ -8,6 +8,18 @@ namespace LinkedList
 {
     internal class DoublyLinkList
     {
+        class Node
+        {
+            public int data;
+            public Node next;
+            public Node prev;
+            public Node(int data)
+            {
+                this.data = data;
+                this.next = null;
+                this.prev = null;
+            }
+        }
         static void Main(string[] args)
         {
             bool flag=true;
@@ -93,17 +105,7 @@ namespace LinkedList
         }
     }
 
-    class Node
-    {
-        public int data;
-        public Node next;
-        public Node prev;
-        public Node(int data) { 
-            this.data = data;
-            this.next = null;
-            this.prev = null;
-        }
-    }
+    
 
     class DoublyLinkListImpl
     {

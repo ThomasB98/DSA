@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>LinkedList.Reverse_Linked_List</StartupObject>
+    <StartupObject>LinkedList.CircularDoublyLinkList</StartupObject>
   </PropertyGroup>
 
 </Project>

@@ -18,6 +18,7 @@
                 Console.WriteLine("2.Selection Sort");
                 Console.WriteLine("3.Insertion Sort");
                 Console.WriteLine("4.Merge Sort");
+                Console.WriteLine("5.Quick Sort");
                 int opti = int.Parse(Console.ReadLine());
 
                 switch (opti)
@@ -49,6 +50,11 @@
                         MergeSort mgs=new MergeSort(arr);
                         mgs.Sort();
                         Console.WriteLine("");
+                        break;
+                    case 5:
+                        Console.WriteLine("Quick Sort");
+                        QuickSort qs=new QuickSort(arr);
+                        qs.Sort();
                         break;
                     default:
                         Console.WriteLine("Invalid option");
